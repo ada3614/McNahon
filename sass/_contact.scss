@@ -1,0 +1,86 @@
+.contact {
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+    @media(max-width: 1024px) {
+        margin-top: 2rem;
+     }
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    @media(max-width: 1024px) {
+        margin-top: 2rem;
+        flex-direction: column;
+     }
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    @media(max-width: 1024px) {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.2;
+     }
+}
+
+.adrress span {
+    color: $tertiary-color;
+    font-weight: bold;
+}
+
+.contact-form {
+    border: 1px solid $tertiary-color;
+    border-radius: 5px;
+    padding: 1.6rem;
+    width: 60%;
+    @media(max-width: 1024px) {
+        width: 100%;
+        margin-top: 2rem;
+     }
+}
+
+.contact-form button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.form-header {
+    font-size: 1.6rem;
+    color: $tertiary-color;
+
+}
+
+.form-fields {
+    margin-bottom: 0.6rem;
+}
+
+.form-fields textarea {
+    height: 200px;
+    font-family: $font;
+    @media(max-width: 1024px) {
+        height: 100px;
+     }
+}
+
+.form-input {
+    width: 80%; 
+    font-size: 1rem;
+    border: none;
+    padding: 0.6rem;
+    color: $secondary-color;
+    background-color: transparent;
+    border-bottom: 2px $tertiary-color solid;
+    &:focus {
+        outline: none;
+        border-bottom: 2px $secondary-color solid;
+        // color: $secondary-color;
+    }
+}
