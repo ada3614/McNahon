@@ -69,10 +69,7 @@
 
 .showcase {
     position: absolute;
-    top: 25%;
-    @media(max-width: 1024px) {
-        top: 20%;
-    }
+    top: 20%;
     @media(max-width: 1024px) {
         top: 25%;
      }

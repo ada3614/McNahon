@@ -171,13 +171,7 @@ body {
 
 .showcase {
   position: absolute;
-  top: 25%;
-}
-
-@media (max-width: 1024px) {
-  .showcase {
-    top: 20%;
-  }
+  top: 20%;
 }
 
 @media (max-width: 1024px) {
