@@ -619,6 +619,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    justify-items: end;
   }
 }
 
@@ -862,6 +863,8 @@ body {
 
 .form-fields textarea {
   height: 200px;
+  max-width: 80%;
+  min-height: 200px;
   font-family: "Montserrat", sans-serif;
 }
 
